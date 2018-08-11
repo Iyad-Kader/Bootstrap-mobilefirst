@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .wrapper {
+      width: 80%;
+      height: 80%;
+      margin: auto;
+    }
+    .form-group{
+      width: 80%;
+      height: 80%;
+      margin: auto;
+    }
+    
+    .subwrapper{
+    display: grid;
+    width: 70%;
+    padding: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+     text-align-last: right;
+    
+      
+      
+      
+    }
+
+
+  </style>
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Iyad Kader</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">About
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Contact Form -->
+
+  <form>
+    <div class="wrapper">
+      <div class="form-group">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div id="wrapper">
+      <div class="form-group">
+        <label for="inputFname">First Name</label>
+        <input type="text" class="form-control" id="inputFname" placeholder="First Name">
+      </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="form-group">
+      <label for="inputLname">Last Name</label>
+      <input type="text" class="form-control" id="inputLname" placeholder="Last Name">
+      </div>
+      </div>
+    </div>
+    <div class="container">
+    <div class="form-group">
+      <label for="inputPhone#">Phone Number</label>
+      <input type="text" class="form-control" id="inputPhone#" placeholder="XXX-XXX-XXXX">
+    </div>
+    <!-- </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out -->
+        </label>
+      </div>
+    </div>
+    <div class="subwrapper">
+    <div class="subbutton">
+    <button type="submit" class="btn btn-primary" onclick="doClick()">Submit</button>
+  </form>
+  </div>
+  </div>
+<script>
+function doClick(){
+    alert('Thank you for your submission. We will be reaching out soon.');
+}
+
+</script>
+</body>
+
+</html>
