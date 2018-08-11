@@ -1,20 +1,18 @@
   /* Make the image fully responsive */
           .carousel-inner img {
-            width: 80%;
+            width: 90%;
            margin: auto;
+           margin-left: 3em;
           }
        .wrapper{
         width: 80%;
         height: 80%;
         align-content: center;
        }
-       img{
-         border-radius: 50%;
-       }
        
-    .container{
+      .container{
       display: grid;
-      grid-template-columns: repeat(4,1fr);
+      /* grid-template-columns: repeat(4,1fr); */
       padding: 1em;
       position: relative;
       text-align: left;
@@ -30,6 +28,6 @@
     .textbox{
       margin: auto;
       text-align: center;
-    
+      padding: 1em;
     }
     
