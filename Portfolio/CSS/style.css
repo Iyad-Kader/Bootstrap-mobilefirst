@@ -1,0 +1,33 @@
+  /* Make the image fully responsive */
+          .carousel-inner img {
+            width: 90%;
+           margin: auto;
+           margin-left: 3em;
+          }
+       .wrapper{
+        width: 80%;
+        height: 80%;
+        align-content: center;
+       }
+       
+      .container{
+      display: grid;
+      /* grid-template-columns: repeat(4,1fr); */
+      padding: 1em;
+      position: relative;
+      text-align: left;
+      color: black;
+      
+    }
+    .body{
+      
+      background: beige;
+      max-width: 80%;
+      margin: auto;
+    }
+    .textbox{
+      margin: auto;
+      text-align: center;
+      padding: 1em;
+    }
+    
